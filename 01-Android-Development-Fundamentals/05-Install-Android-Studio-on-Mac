@@ -1,0 +1,10 @@
+Install Android Studio on Mac:
+- Download the JDK: java.oracle.com -> JavaSE -> JDK icon -> Download the jdk
+
+- Check installation:
+  java -version
+  javac -version
+
+- Download and install the Android Studio by drag and drop into the Application directory
+- Open Android Studio:
+  - Download and install all the components

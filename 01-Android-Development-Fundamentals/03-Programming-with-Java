@@ -1,0 +1,62 @@
+Programming with Java:
+--------------------
+Which version of Java:
+- The Android SDK supports a custom Java implementation.
+  * All Java 5 and 6 syntax supported
+  * Most Java 7 syntax
+- New Java 8 syntax features are not available.
+  * (Lambda expressions, method references, etc.)
+---------------
+Java 7 Syntax That Works:
+- The diamond operator to reduce code with generic types.
+List<String> myList = new ArrayList<>();
+- Evaluating string variables with switch statements.
+- Multi-catch clauses (catch (Ex1 | Ex2))
+- Underscore in numeric literals (1_000_000)
+--------------
+Java 7 Syntax That Doesn't Work:
+- try-with-resources
+  * Can be used in apps with minimum SDK = API 19
+- The @SafeVarargs annotation
+  * Because SafeVarargs class isn't implemented
+-------------
+Android's Standard Java APIs
+- The Android SDK implements most standard Java packages.
+- java.lang
+- java.io
+  java.nio
+- java.math
+- java.net
+- java.text
+- java.util
+- java.xml
+- javax.sql
+--------------
+Android's Custom APIs
+- Android-specific feature are in custom packages.
+- andorid.app
+- android.widget
+- android.database
+- android.graphics
+- android.net
+- android.hardware
+-------------
+API Reference: https://developer.android.com/reference
+-------------
+Android Build Process:
++-------------------+
+|Source code (.java)|
++-------------------+                  +--------------------+
+                    | +--->javac +---> |Java bytecode(.class)
++-------------------+                  +----------+---------+
+|Library code(.class)                             |
++-------------------+                             |
+                                                  v
+                                                ProGuard
+                                                  +
+                                                  |
+                                                  v
+ +-------------------+                 +----------+--------------+
+ |   DEX bytecode    | <----+dex<------+Minimized bytecode(.class)
+ |     (.dex)        |                 +-------------------------+
+ +-------------------+

@@ -1,0 +1,41 @@
+Android is...
+A software stack
+  * The operating system
+  * The application framework
+    - That distributes through Google Play Store and Amazon App store etc.
+  * Android developer program with Java and XML
+----------
+Programming with Java
+- Java coding standards are based on Java 6 and 7.
+  * Advanced architectures are used.
+- To get started with Java....
+  * Java Essential Training
+  * Java Advanced Training
+----------
+Programming with XML:
+- App resource files
+  * Activity layouts, menus, colors, strings, and more
+- XML courses...
+  * XML Essential Training
+  * XML Integration with Java
+----------
+Using the Developer Tools:
+- This course uses Android Studio.
+  * Android Studio Essential Training
+- The older Android Developer Tools (ADT) Eclipse plugin is no longer supported.
+----------
+Required Java Software:
+- Oracle JDK (latest version recommended)
+- Java Standard Edition JDK 8
+  * Download from http://java.oracle.com
+-----------
+Developer Tools:
+- Android Studio 1.4
+  * Based on IntelliJ IDEA 14.1
+- Android SDK
+  * Android 6.0 (Marsmallow, API level 23)
+  * Other version-specific components needed
+- Testing with physical devices
+  * At least one phone, Android 4.0.3 or later
+- Testing with virtual devices
+  * Create as many as you need

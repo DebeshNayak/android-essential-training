@@ -1,0 +1,53 @@
+Exploring the history of Android:
+
+Android is....
+- An operating system
+  * Based on Linux
+  * Supports mobile devices (phones and tablets)
+- A software stack
+  * The operating system
+  * The application framework
+----
+The Android SDK:
+- Compiler
+  * Build and package apps for distribution
+- Debugging tools
+  * Test and tune your apps
+----
+The History of Android:
+- Version 1.0 (September 2008)
+  * Web browser, camera support, search, maps, services sync, instant messaging, media player, and more
+- Version 1.1 (Feb 2009)
+  * Map improvements, showing/hiding the dial pad, and saving attachments
+- Version 1.5 (Cupcake, April 2009)
+  * Video support, the home screen, widgets, copy/paste in web browser, pictures in contacts,
+    animated screen transitions, and an auto-rotation option
+- Version 1.6 (Donut, September 2009)
+  * Expanded gestures and integrated camera/gallery
+- Version 2.0 (Eclair, Oct 2009)
+  * Multiple accounts, Bluetooth 2.1, Microsoft Exchange, searching SMS/MMS messages, and more screen sizes
+- Version 2.2 (Froyo, May 2010) - Working now a days also
+  * Speed and memory enhancements, new JavaScript V8 engine in Chrome, USB tethering, and Wi-Fi hotspot
+- Version 2.3(Gingerbread, December 2010)
+  * Concurrent garbage collector, video and audio improvements, near field communication (NFC), and clipboard enhancements
+- Version 3.0(Honeycomb, February 2011) - Only work on tablets
+  * Optimized for tablets, fragments API, action bar, and much more
+- Version 4.0 (Ice Cream Sandwich, October 2011)
+  * Unified the tablet and smartphone SDKs, plus improved video and a customizable launcher
+- Version 4.1 (Jelly Bean, February 2012)
+  * Performance improvement known as "Project Butter"
+- Version 4.2 (Jelly Bean, November 2012)
+  * Camera improvements, multi-user support on tablets, unified interface layout engine, and others
+- Version 4.3 (Jelly Bean, July 2013)
+  * Bluetooth low energy, improved gaming graphics, and much more
+- Version 4.4 (KitKat, October 2013)
+  * Memory and pwer management, NNFC, printing, storage access, SMS, rich media, and accessibility
+- Version 5.0 (Lollipop, November 2014)
+  * Material Design, redesigned notifications, redesigned "recent apps" interface, and ART runtime (Replacing Dalvik)
+  * HD Voice, Dual Sim cards
+- Version 6.0 (Marshmallow, October 2015)
+  * New permissions model
+  * Doze power management system
+  * Fingerprint recognition API
+  * App link management
+  * Google Now on Tap

@@ -1,0 +1,64 @@
+Exploring the Android app framework:
+- Android is designed around a kernel that's based on Linux.
+- It's a version of Linux that's highly optimized for mobile operating systems.
+  - it works on devices that have constrained CPU and memory capabilities
+----------
+Android Software Stack:
++------------------------------------------+
+|               Applications               |
++------------------------------------------+
++------------------------------------------+
+|          Application Framework           |
++------------------------------------------+
++-----------------+ +----------------------+
+| Android Runtime | |      Libraries       |
++-----------------+ +----------------------+
++------------------------------------------+
+|             Linux Kernel                 |
++------------------------------------------+
+----------
+Linux Kernel:
++--------+  +--------+  +--------+ +--------+
+|Audio   |  |Binder  |  |Camera  | |Display |
+|drivers |  |(IPC)dri|  |driver  | |driver  |
++--------+  +--------+  +--------+ +--------+
++--------+  +--------+  +--------+ +--------+
+|Flash   |  |Keypad  |  |Power Ma| |Wi-Fi   |
+|memory  |  |driver  |  |nagement| |driver  |
++--------+  +--------+  +--------+ +--------+
++-------------------------------------------+
+|             Linux Kernel                  |
++-------------------------------------------+
+---------
+Android Runtime:
+- Core libraries
+- Dalvik or ART(Android Runtime) VM
+---------
+Libraries:
+- It includes graphics, databases, encryption, typefaces, and so on.
+- FreeType, libc, libwebcore, Media framework, OpenGL, SGL, SQLite, SSL
+---------
+Application Framework:
+- Screen layout
+- Navigation
+- System access
+----------
+Applications:
+- Launcher, Browser, Contacts, Phone
+- Your custom apps
+======================
+Component Architecture:
+- Each component is implemented as a Java class.
+------
+Components as Java Classes:
+- An activity is an instance of
+  * android.app.Activity
+- A button is an instance of
+  * android.widget.Button
+-----
+Component Types:
+- Activities represent user interface screens.
+- Views manage display and user interactivity
+- Services perform background jobs.
+- Broadcast receivers react to system messages.
+- Content providers provide managed access to data.

@@ -1,0 +1,14 @@
+Welcome:
+- This course is designed to help you get started building apps for mobile devices that run the Android operating system.
+- We learn the following topics in this course:
+  - history of Android
+  - how to set up Android Studio and the Android SDK on your development computer
+  - how to prepare both virtual and physical devices for testing.
+  - how to create brand new Android Studio projects,
+  - how to define an app's visual presentation with XML layout files and widgets,
+  - how to control an app's behavior with Java code.
+  - how to navigate between screens
+  - how to present lists of data and images
+  - how to support the enormous variety of screen sizes and pixel densities that we see in Android devices.
+  - This course helps get started building apps for the ever expanding world of the Android operating system and
+    application framework.

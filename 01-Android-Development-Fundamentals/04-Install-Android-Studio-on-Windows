@@ -1,0 +1,20 @@
+Installing Android Studio on Windows:
+- Download the JDK
+- Set the following environment variable:
+  - PATH - to the JDK bin folder
+  - JAVA_HOME - to the JDK folder
+
+- To check the Java version:
+java -version
+javac -version
+
+- Download the Android Studio from:
+http://d.android.com
+
+- While installation install:
+  - Install the following:
+    * Android SDK
+    * Android Virtual Device
+    * Performance (Intel & HAXM)
+  - Android SDK Location:
+    * C:\Users\<usr_name>\Android\sdk

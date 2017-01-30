@@ -1,0 +1,22 @@
+Android 6.0 Platform
+---------------
+- Download all the required components
+---------------
+Welcome screen -> Configure -> SDK Manager
+- Show package details
+---------------
+SDK Platforms
+Google APIs intel x86 Atom System Image
+Google APIs Intel x86 Atom System Image
+Sources for Android 23
+--------------
+SDK Tools:
+Android SDK build Tools
+Android SDK Tools 24.4.1
+Android SDK Platform - Tools 23.1 rc1
+Documentation for Android SDK
+Android Support Repository, rev 24
+Google Repository, rev 22
+Intel x86 Emulator Accelerator (HAXM installer)
+Google USB Driver (only in Windows)
+--------------
