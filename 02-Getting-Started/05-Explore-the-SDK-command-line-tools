@@ -1,0 +1,21 @@
+Explore the SDK's command line tools:
+Most useful command:
+- android - open the standalone Android SDK manager
+- android avd - open eclipse version of Android Manager
+- android list avd - Display listing of all existing virtual devices.
+- emulator -avd <device name> - open a new virtual device
+- avd devices - list all the connected devices
+-----------------
+Manipulate the device:
+- adb reboot - reboot the device
+- monitor - present a device view, where we can find
+              - Threads
+              - Heap
+              - Allocation Tracker
+              - network Statics
+              - File Explorer
+
+- Command to create a new Android Project
+
+android create project --target 1 --name MyAndroidApp --path ./MyAndroidApProject
+--activity MainActivity --package com.example.myandroidapp

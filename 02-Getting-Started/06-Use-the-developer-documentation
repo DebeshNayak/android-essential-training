@@ -1,0 +1,6 @@
+Use the developer documentation:
+- Android Documentation Page: http://developer.android.com/develop/index.html
+- We can download the entire documentation using the SDK manager:
+Android Studio -> Tools -> SDK manager -> SDK Tools -> check the checkbox "Documentation for Android SDK"
+- Offline documentation can be found from the following folder:
+android_sdk\docs\index.html

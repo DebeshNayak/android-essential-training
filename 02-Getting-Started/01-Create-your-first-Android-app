@@ -1,0 +1,11 @@
+Create your first Android app:
+-----------------------------
+Before Creating a Project:
+- Install Java Development Kit
+- Install and update Android Studio
+  * Android Studio 2.2.3
+- Update Android SDK
+  * Android 6.0 (Marshmallow), API level 23
+---
+Current Usage Rate of Android SDK on the Google Play Store:
+- http://d.android.com/about/dashboards/index.html

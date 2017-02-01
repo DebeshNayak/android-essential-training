@@ -1,0 +1,25 @@
+Connect to a Physical Device:
+ - Whenever possible test apps with physical Android device.
+ - You'll get a more realistic sense of how your app will behave for your actual users.
+- In Windows make sure to install the "Google USB Driver" tool
+- In the Android Studio Welcome Screen
+  -> Configure -> Settings -> Android SDK -> SDK Tools -> check Google USB Driver
+---------
+- Then we need to turn on a feature called "USB Debugging"
+- On mobile device
+  1. To turn on "Developer Options"
+  Setting -> About Phone -> touch "Build number" 7 times
+  2. Inside "Developer options" we need to turn on:
+    - Stay awake
+    - USB debugging
+- There is another option called "Revoke USB debugging authorizations"
+- Then "allow for authorization" from the phone.
+----------
+- There are two ways to check the connected Android Devices:
+  1. adb(Android Debug Bridge) command line tools
+  - It present inside Android SDK folder (c:\Users\<user_name>\Android\sdk\platform-tools\)
+  - Command to check the connected devices:
+  adb devices
+
+  2. From Android Studio go to the "Android Monitor" present below.
+  - And in the drop-down combo-box you can see the connected physical devices.

@@ -1,0 +1,19 @@
+1. Which of the following options is an XML file that describes the appearance of the screen?
+Ans: Layout file
+
+2. The background service that connects Android Studio to the device is ADB.
+Ans: True
+
+3. When you touch "Build number" under "About phone" 7 times, you are switched to the developer
+option which simplifies debugging and testing on a real device.
+Ans: True
+
+4. Where is the Adnroid Debug Bridge located?
+Ans: platform-tools
+
+5. Select the command that helps you list the available devices.
+Ans: adb devices
+
+6. To get to a simplified version of a class documentation, click on the class
+  and press Ctrl+Q on Windows or Ctrl+J on OS X.
+Ans: True
