@@ -1,0 +1,12 @@
+1. Where do you put the string resources in order to localize your appliation?
+Ans: in values/strings.xml
+
+2. Where is the listing of directories and JAR files that you need to build your application?
+Ans: build.gradle
+
+3. You can change the application theme in the manifest file.
+Ans: True
+
+4. The list of Maven repositories that the build process can use to get requested
+  libraries is in the build.gradle file.
+Ans: True

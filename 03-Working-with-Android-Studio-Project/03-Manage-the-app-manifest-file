@@ -1,0 +1,46 @@
+Manage the app manifest file:
+- The AndroidManifest file is an XML file that describes the app to the operating system and virtual machine.
+- The file name is AndroidManifest.xml
+- This file will be find inside "manifests" folder in the "Android" view.
+------------
+- Root element of this XML is "manifest"
+- And the child element is "application"
+- The manifest element starts with a namespace declaration with a prefix of android.
+- That prefix is then used throughout the Application Manifest file.
+- The package  attribute of the root element points to the app's default package.
+-----------
+- The application element controls the aspect of the application.
+- Following are the attribute of the application element:
+      allowBackup: determines whether app's data will be backed up to Google.
+      icon: control the graphical element that's displayed on a device's launcher screen
+      label: App's label
+      supportsRtl: whether support right to left text rendering
+      theme: theme of the entire project, controlling the application's appearance.
+- The child element of the "application" is "activity" element
+  - An "activity" represent a screen.
+  - Following are some of the attribute of the "activity" element
+    name: Represents a Java class that determines that screen's behavior.
+    label: Override the label of the app
+    theme: Override the theme of the app
+  - The child element of the "activity" element is "intent-filter"
+    - It determine when this activity is brought to the screen.
+    - An activity with an intent-filter that has an action of MAIN and a category
+      of LAUNCHER is the application's launcher activity.
+- We can configure the permissions in the manifest file.
+  - This will be place as the child of the root element.
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+-----
+Reformat the code shortcut:
+Mac: cmd + opt + l
+Win: ctrl + alt + l
+----------
+  - But apps that run on devices with Android 6 Marshmallow can defer permission requests
+    until the user tries to do something that needs that permission.
+    - For example, an app might need to write data to the device's calendar that needs a
+      special permission, but the user won't be asked for that permission until the app tries
+      to do it.
+  - The "AndroidManifest" file is where we can define about activities and control app's behaviors
+    and appearance,
+  - And it is where you can grant permissions that allow your application to execute
+    critical functions.

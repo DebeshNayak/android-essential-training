@@ -1,0 +1,23 @@
+Use dependencies and support libraries:
+- Android Studio's dependency system is based on an architecture known as Maven.
+- A Maven repository is a library of libraries, a place where developers can add
+  libraries, and other developers can download them.
+- In the file build.gradle file inside the "dependencies" block, the support libraries
+  are defined.
+  Example:
+  - The "appcompart" library gives features that will work all the way back to API level 7
+  - The "design" library includes components such as floating action button, that let you
+    create compelling visual display in the app.
+- In order to use this feature we must have installed something called "Support Repository"
+  Tools -> Android -> SDK Manager -> SDK Tools -> Android Support Repository
+- To include a new dependency:
+  - File -> Project Structure -> app Module -> Dependencies -> Click the '+' button
+- So the idea is that you don't have to go get a JAR file, a Java library, and add it to your
+  projects folders, and then go through all the work of adding that library, or JAR file, to your class path.
+  - Instead, simply list the library and the version you want in your dependencies in your build.gradle file,
+  and all the work is done for you.
+--------------
+- The build.gradle project type file's jcenter() method looks for the bintray.com website for the
+  requested dependencies list.
+- But if you learn a little bit more about how dependencies work, you can actually add your own
+  repositories to this list and expand the capabilities of the gradle.build system.

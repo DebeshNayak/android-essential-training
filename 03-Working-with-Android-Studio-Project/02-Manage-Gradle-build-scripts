@@ -1,0 +1,45 @@
+Manage Gradle build scripts:
+ - Android Studio projects are built around the Gradle build system.
+ - When you create an Android Studio project, it's populated with two Gradle scripts
+  and a couple of other important configuration files.
+
+1. local.properties:
+  - Defines the location of the Android SDK on the system.
+  - It's unlikely to exist on your computer.
+  - This file is generated automatically each time we will open Android Project in Android Studio.
+  - For this value of the Android SDK folder to be changed, go to the following folder:
+    File -> Project Structure -> SDK Location -> Android SDK location
+2. gradle.properties:
+  - It let us control memory allocation for the Gradle build process
+  - This file is completely commented out
+  - It is not for the app on the Android device.
+3. build.gradle:
+  - Here we can set Android Versions and indicate what code the app depends on
+  - There are two types of Gradle files.
+    1. Project
+    2. Modules
+  - Project version is not used very much
+  - Modules build.gradle file is very much used
+  - Module in Android Studio:
+    - File -> Project Structure -> Modules -> app
+    - Compile Sdk Version: API 23: Android 6.0 (Marshmallow)
+    - Build Tools Version: 23.0.1
+  - When we make changes to anything in the above dialog we are making change to the Module version of "build.gradle" file.
+  - Following parameters are there in this Module version of "build.gradle" file:
+    - compileSdkVersion
+    - buildToolsVersion
+    - applicationId
+    - minSdkVersion
+    - targetSdkVersion
+    - buildTypes - This a very advance concept
+  - There is also a dependencies block is also there:
+    - This is a listing of all of the directories and jar files that will be needed to build an application.
+    - But instead of actual jar files, Android Studio uses something called the "Maven dependency system"
+      - Maven is a system of repositories that store code for use in Android or other Java-style application.
+      - The "appcompart" library, is a support repository contains Java classes and libraries
+        - It contains Java classes and libraries that can be used instead of versions in the core SDK
+          so that we can write apps that work on older versions of Android.
+      - The "design" library, contains definitions of new tools that are available for the lastest version of Android, such as
+        the floating action button component.
+    - These compiled directives in the build script tell Gradle where to get the code you need to finish
+      compiling your application.

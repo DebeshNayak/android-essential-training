@@ -1,0 +1,39 @@
+Explore the project structure:
+- Double "shift" key to open up search everywhere feature
+- To open the left side Project window:
+  Mac: cmd + 1
+  Win: alt + 1
+-----------
+Android Project Folder Structure:
+app: this folder is known as module
+  - Under that one named "src" folder
+    - Under that one named "main"
+      - Inside this folder we can find "java" classes
+        - And inside it we will find all the java "package" folder and this package
+          represent the "app id"
+          - And inside it the "MainActivity" class
+        - The main java package is registered in "AndroidManifest.xml" file and "build.gradle" file
+      - And "res" folder
+        - This contain all of the resource folder
+        - Inside it following sub-folders are present:
+          1. "drawable", and it contain .png and .jpg files to represent graphics in the app.
+          2. "layout", has xml files that describe how your screen looks like
+            - This initially contain 2 XML file
+              1. activity_main.xml: It serves as container for the whole screen description.
+              2. content_main.xml:
+                - This file is included inside the activity_main file.
+                - This file has it's own description regarding user interface element
+          3. "menu", which has xml file which contains menu in the app.
+          4. "mipmap", which contain a .png file which a launcher graphic.
+            - These folder are labeled with "dpi" label, DPI represents pixel density
+            - The devices with higher pixel density have might have pixel density of "xxxhdpi"
+            - The devices with lower pixel density have might have pixel density of "hdpi"
+            - At runtime the app framework select appropriate version of a .png file to display for current device.
+          5. "values", which contain following XML file:
+            - strings.xml - describes strings and gives them identities
+                          - using string resources like this makes it possible to localize app for different languages
+          6. "value" folder with suffix, like
+            - "values-v21" will run on devices which have API level 21 or later
+            - "values-w820p" will run on a device at least one side of screen with a width of at least 820 device independent pixel
+- Most of the time while working on Android Studio, we have to work on "Android" view
+- The purpose of Android view is to make it faster and easier to do Android development
