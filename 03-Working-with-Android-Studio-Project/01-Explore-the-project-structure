@@ -26,8 +26,8 @@ app: this folder is known as module
           3. "menu", which has xml file which contains menu in the app.
           4. "mipmap", which contain a .png file which a launcher graphic.
             - These folder are labeled with "dpi" label, DPI represents pixel density
-            - The devices with higher pixel density have might have pixel density of "xxxhdpi"
-            - The devices with lower pixel density have might have pixel density of "hdpi"
+            - The devices with higher pixel density might have pixel density of "xxxhdpi"
+            - The devices with lower pixel density might have pixel density of "hdpi"
             - At runtime the app framework select appropriate version of a .png file to display for current device.
           5. "values", which contain following XML file:
             - strings.xml - describes strings and gives them identities

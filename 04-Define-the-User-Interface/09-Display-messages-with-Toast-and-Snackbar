@@ -1,0 +1,7 @@
+Display messages with Toast and Snackbar:
+- The Android SDK gives you a couple of ways of displaying messages to the user.
+- We've already seen one of these types of messages in action, the Snackbar message.
+----------------
+- A Toast message is managed by the application framework, not directly by the application UI.
+----------------
+Example: 06-UserMessages project

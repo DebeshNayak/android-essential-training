@@ -1,0 +1,5 @@
+Display and collect text values:
+- The Android SDK includes two key controls that let you work with text:
+  i. The TextView control to display text.
+  ii. The EditText to let the user enter text values.
+Example: 05-TextValues project

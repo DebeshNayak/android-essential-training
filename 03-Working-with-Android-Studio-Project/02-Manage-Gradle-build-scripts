@@ -32,14 +32,14 @@ Manage Gradle build scripts:
     - minSdkVersion
     - targetSdkVersion
     - buildTypes - This a very advance concept
-  - There is also a dependencies block is also there:
+  - There is also a dependencies block:
     - This is a listing of all of the directories and jar files that will be needed to build an application.
     - But instead of actual jar files, Android Studio uses something called the "Maven dependency system"
       - Maven is a system of repositories that store code for use in Android or other Java-style application.
       - The "appcompart" library, is a support repository contains Java classes and libraries
         - It contains Java classes and libraries that can be used instead of versions in the core SDK
           so that we can write apps that work on older versions of Android.
-      - The "design" library, contains definitions of new tools that are available for the lastest version of Android, such as
+      - The "design" library, contains definitions of new tools that are available for the latest version of Android, such as
         the floating action button component.
     - These compiled directives in the build script tell Gradle where to get the code you need to finish
       compiling your application.

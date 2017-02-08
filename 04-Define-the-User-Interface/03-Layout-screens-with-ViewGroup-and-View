@@ -1,0 +1,54 @@
+Layout screens with ViewGroup and View:
+- An XML layout file describes the appearance of an Android screen.
+Example: A Simple Layout File
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="10dp"
+  tools:context=".MainActivity">
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="text"/>
+</RelativeLayout>
+------------------------
+Visual Controls Are Java Views:
+View      -> android.view.View
+  ^
+  |
+TextView  -> android.widget.TextView
+  ^
+  |
+Button    -> android.widget.Button
+  ^
+  |
+CompoundButton  ->android.widget.CompoundButton
+---------------------------
+                    +------------+
+                    |    View    |
+                    +-----+------+
+                          |
+                    +-----+------+
+    +---------------+ViewGroup   +-----------------+
+    |               +-----+------+                 |
+    |                     |                        |
++---+--------+      +-----+--------+       +-------+-----+
+|LinearLayout|      |AbsoluteLayout|       |RelativeLayout
++------------+      +--------------+       +-------------+
+-----------------
+* ViewGroups as Layout Containers:
+  - Functionally, a ViewGroup is a layout container.
+    - LinearLayout: Lay out horizontally or vertically
+    - RelativeLayout: Realtive to container or toher objects
+    - GridView: 2D scrollable grid
+    - ListView: Vertically list of scrollable items
+  - Others
+    - AbsoluteLayout, DrawerLayout, ViewPage
+  - From the support design library
+    - CoordinatorLayout, AppBarLayout
+----------------
+- Each of these components is implemented internally as a Java class, but you
+  can then add these components to your layouts, using XML declarations or Java code.

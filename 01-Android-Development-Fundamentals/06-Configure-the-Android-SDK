@@ -1,4 +1,6 @@
-Android 6.0 Platform
+Configure the Android SDK:
+--------------------------
+Android 6.0 Platform Configuration:
 ---------------
 - Download all the required components
 ---------------
@@ -6,7 +8,6 @@ Welcome screen -> Configure -> SDK Manager
 - Show package details
 ---------------
 SDK Platforms
-Google APIs intel x86 Atom System Image
 Google APIs Intel x86 Atom System Image
 Sources for Android 23
 --------------

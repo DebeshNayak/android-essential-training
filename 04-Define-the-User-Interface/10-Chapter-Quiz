@@ -1,0 +1,28 @@
+1. In activity_main, where can you point to a different layout resource?
+Ans: In the include tag
+
+2. If you need to make theme and style changes to your application, you can change
+the generated file which is copied from the SDK.
+Ans: False
+
+3. The LinearLayout class inherits its functionality from?
+Ans: ViewGroup
+
+4. The unit of measurement you use for font sizes is sp (scale independent pixels).
+Ans: True
+
+5. What property should you change to add spaces between buttons in a LinearLayout?
+Ans: margin
+
+6. Which one of the following is not a property that you need to change for a RelativeLayout container?
+Ans: orientation
+
+7. You can programmatically find a view if you know its id using the method findViewById().
+Ans: True
+
+8. What class should you use when appending text?
+Ans: StringBuilder
+
+9. From the two types of user messages that are available, the Toast message accepts
+a view as a first parameter.
+Ans: False

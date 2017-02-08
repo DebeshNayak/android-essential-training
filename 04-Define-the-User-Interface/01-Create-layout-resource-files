@@ -1,0 +1,43 @@
+Create layout resource files:
+ - When the user touches an icon on their launcher screen, that launches an app,
+  but there's a lot going on in the background.
+- There's a whole chain of decisions that are made, determining which activity
+  is going to be loaded or which screen and which layout will be loaded to display
+  the screen's contents.
+-----------------
+- When you install the application, you're registering the app's activities.
+- And one of these activities, typically, is marked as the launcher activity.
+- The activity also defines its associated Java class.
+- As the activity is created, a method named onCreate() is automatically called by
+  the app framework.
+- One of the most important task in the onCreate() method is to choose the activity's
+  layout.
+- That's done by calling the method setContentView() and passing in a resource ID for
+  a layout file.
+- R.layout.activity_main - referes to the activity_main.xml file.
+- That's how we can decide what the main layout is going to be.
+--------------------
+- There is a secondary layout called "nested layout" there inside the "activity_main.xml"
+- And in the nested layout we will do most of the customization work.
+- The "include" element points to the other XML file, content_main.xml
+-------------------
+- The content_main.xml file contains
+  - "RelativeLayout" container and nested "TextView" component
+  - And the "text" attribute of "TextView" component is being displayed the screen.
+--------------------
+Note: If working with these new templates that are included in Android Studio:
+  - Rather than creating your layouts from scratch, make a copy of a layout file that's already working.
+--------------------
+- A LinearLayout container, either stack objects from top to bottom, or lay them out from left to right or
+  right to left
+  - Then add a attribute "orientation='horizontal'" to this LinearLayout element.
+--------------------
+Keyboard Shortcut:
+To reformat the code:
+Mac: cmd + opt + l
+Win: Ctrl + alt + l
+------------------
+- We have more than one layout files in our projects.
+- We can determine at runtime which layout file to load by using either of the following two methods:
+  1. Through Java class, by calling setContentView() method
+  2. By deciding to include a different child layout in the parent layout.

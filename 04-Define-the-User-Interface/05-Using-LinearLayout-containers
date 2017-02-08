@@ -1,0 +1,5 @@
+Using LinearLayout containers:
+- LinearLayout container can layout child objects, either horizontally or vertically.
+- LinearLayout is an incredibly usable view group that let's you layout objects from
+  top to bottom or horizontally depending on the needs of your application.
+Ex: 02-LinearLayout project

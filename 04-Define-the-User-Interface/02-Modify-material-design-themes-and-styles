@@ -1,0 +1,12 @@
+Modify material design themes and styles:
+- In Android 5 Lollipop, Google introduces new designed language called Material design.
+- It is introduces for both Android and Web application.
+
+- In the AndroidManifest.xml file we can find the attribute "theme" under the "application" element.
+Note: we can directly go the particular file by clicking on the "Scroll from source" icon.
+- The "primary color" is used to defined the background of the action bar area.
+- The "dark primary color" is used to define the background for the system bar at the very top of the screen.
+--------
+Go further with Material Design:
+1. http://www.google.com/design/spec/style/color.html
+2. www.materialpalette.com

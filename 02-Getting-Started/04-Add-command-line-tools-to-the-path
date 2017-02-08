@@ -1,6 +1,6 @@
 Add command line tools to the path:
 - By adding command folders to your system path,
-  it'll make it a lot easier to do things from the command line when you want
+  it'll make a lot easier to do things from the command line when you want
   to see exactly what's happening in the background.
 - The Android SDK tools is generally used from Android Studio
 - But the SDK tools is also used from Command Lines

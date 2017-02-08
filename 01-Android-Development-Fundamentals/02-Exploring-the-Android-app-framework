@@ -1,7 +1,7 @@
 Exploring the Android app framework:
 - Android is designed around a kernel that's based on Linux.
 - It's a version of Linux that's highly optimized for mobile operating systems.
-  - it works on devices that have constrained CPU and memory capabilities
+  - It works on devices that have constrained CPU and memory capabilities.
 ----------
 Android Software Stack:
 +------------------------------------------+

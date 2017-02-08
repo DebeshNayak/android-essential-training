@@ -1,0 +1,7 @@
+Using RelativeLayout Containers:
+- The RelativeLayout container is the other most commonly used view group. It lets
+  you anchor objects to a container's edges or to other objects within the container.
+- RelativeLayout container allows you to place and size objects by anchoring the objects either to
+  the container or to other objects within the container.
+- It's typically more adaptable than the linear layout containers
+Example: 03-RelativeLayout project
