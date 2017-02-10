@@ -1,0 +1,40 @@
+Explore the activity lifecycle:
+Task and Back Stacks:
+- Activities in Android go through a lifecycle.
+- A set of stages, as they appear and disappear on the device.
+- Activities are grouped into tasks.
+- Typically, the activities of a single app are all in the same task.
+----------------
+Activity Stacks:
+- Only one activity is active at any given time.
+- One activity can be the last activity.
+- Other activities are queued as previous activities.
+----------------
+Activity States:
+- Active/resumed: Top of the stack, visible, and interactive
+- Paused: Can be visible but without focus
+- Stopped: Not visible
+- Inactive: Completely removed from the activity stack.
+----------------
+The Activity Lifecycle:
+                                          +--------------+
+                      +---------------->  | Resumed      +-----------------+
+                      |                   +------+-------+                 |
+                      |                          ^                         |
+                  onResume()                     |                     onPause()
+                      |                       onResume()                   |
+                +-------------+                  |                  +------v------+
+    +---------> |  Started    |                  +------------------+   Paused    +---+
+    |           +-------------+                                     +-------------+   |
+    |                  |                                                              |
+    |                  |                                                              |
+onStart()              |                                                           onStop()
+    |              onStart()                                                          |
+    |                  |                                                              ^
++---+---------+        |                           onRestart()                +-------+-------+
+| Created     |        +------------------------------------------------------+   Stopped     |
++---+---------+                                                               +-------+-------+
+    ^                                              +-----------------+    onDestroy() |
+    |                                              |   Destroyed     +<---------------+
+    +                                              +-----------------+
+onCreate()

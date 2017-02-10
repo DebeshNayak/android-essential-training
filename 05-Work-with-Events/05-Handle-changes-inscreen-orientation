@@ -1,0 +1,34 @@
+Handle changes in screen orientation:
+- There are certain kind of events in an Android app that are handled automatically
+  by the application framework.
+- But you can choose to handle them yourself with Java code.
+- One of the most common examples is called a configuration event.
+- And one kind of a configuration event is the event that occurs when the user
+  changes the orientation of a device from portrait to landscape or back again.
+- This event is handled automatically by the application framework by simply
+  destroying the activity that's in memory and then rebuilding it from scratch.
+--------------------
+Here how to take control of this kind of configuration change:
+1. Register configuration changes that we want to handle in the application manifest.
+2. And register the screen size
+Add the following attribute to the <activity> element.
+android:configChanges="orientation|screenSize"
+3. In the MainActivity class, add the following line:
+@Override
+public void onConfigurationChanged(Configuration newConfig) {
+   super.onConfigurationChanged(newConfig);
+
+   if(newConfig.orientation == Configuration.ORIENTATION_PORTRAIT){
+       Toast.makeText(MainActivity.this,
+               "Your orientation is portrait", Toast.LENGTH_SHORT).show();
+   }else{
+       Toast.makeText(MainActivity.this,
+               "Your orientation is landscape", Toast.LENGTH_SHORT).show();
+   }
+}
+-----------------------
+- By taking control of this process, by registering your orientation changes in
+  the manifest, and then handling the changes in your own Java code,
+  you're controlling that process and maintaining the state of the activity,
+  even when it's orientation changes.
+Example: 10-ConfigEvents project

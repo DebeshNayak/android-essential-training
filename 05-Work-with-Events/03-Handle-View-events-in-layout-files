@@ -1,0 +1,25 @@
+Handle View events in layout files:
+- Each visual control in a layout is a view, and views can dispatch events.
+- You can handle events either through code that you add into both
+  - the Java class and a layout file,
+  - or through just the Java class itself.
+----------------
+1. add the following attribute to the XML element:
+android:onClick="buttonClickHandler"
+2. On that same like press "Alt+Enter"
+3. Select the "Create onClick EventHandler"
+4. Select the Java class where to add that method.
+And it will create the following method:
+public void buttonClickHndler(View view){
+
+}
+  - This method receives a single argument, a reference to a view.
+  - That view is the object that dispatches the event.
+-------------------
+We have done the following steps:
+- We start in the layout file.
+- Then we registered the event in the appropriate element using the name of the
+  event as an XML attribute.
+- Then we created our method name and generate the method skeleton in the Java class.
+- Then added the implementation of the method to react to the event.
+Example: 08-ViewEvents project

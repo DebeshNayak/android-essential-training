@@ -1,0 +1,24 @@
+Trace lifecycle events with Logcat:
+- Android is an event-oriented programming environment.
+- You typically execute Java code in reaction to events that are dispatched as a
+  result of user actions or by the operating system or app framework.
+- To trace these events in your code, and see what's going on the device and in your apps,
+  we use a tool called logcat that's built into the Android SDK and integrated into Android Studio.
+----------
+android.util.Log;
+
+Log.d(tag_name, message) -> Debug
+   .i -> Info
+   .e -> Error
+
+tag_name -> Class Name
+To get the class name: getClass().getSimpleName()
+Select the text -> Go to "Refactor" menu -> Refactor -> Extract -> Constant
+-------
+Other Life Cycle Methods:
+onStart()
+onResume()
+onPause()
+onStop()
+-----------
+Example: 07-LifecycleEvents project

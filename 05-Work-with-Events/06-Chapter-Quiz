@@ -1,0 +1,19 @@
+1. What state would an activity be in if it is not visible and not removed from memory?
+Ans: stopped.
+
+2. Which of the following is a log level when filtering log messages in the logcat tab?
+Ans:
+Debug
+Info
+Verbose
+
+3. From the onClickListener interface, you need to implement the onClick() method to
+handle the button click event.
+Ans: True
+
+4. Which of the following events is handled when switching from portrait to landscape
+and back again?
+Ans:
+onCreate()
+onStart()
+onResume()

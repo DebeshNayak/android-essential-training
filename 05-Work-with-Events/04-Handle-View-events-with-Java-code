@@ -1,0 +1,23 @@
+Handle View event with Java code:
+- We can also do all of our event handling in pure Java.
+-----------------
+- To do this we have to do the following steps:
+(Note: Here no need to add any attribute to any XML element)
+  1. Create a reference to the Button.
+Button button = findViewById(R.id.submitButton);
+  2. Then we call the method of the button object
+button.setOnClickListener();
+  - This requires an instance of an interface named onClickListener.
+  - It's upto us to define implementation of the interface and implement
+    it's required methods.
+  - Here this is done using an anonymous class with new OnClickListener.
+  - When selecting the OnClickListener(), it will automatically add override for the interface's onClick():
+    public void onClick(View v){
+
+    }
+  - The onClick() receives a single argument, a reference to the View object that dispatched the event.
+  - So how you handle events is completely up to you:
+    1. You can either use the method where you register an event handler in a layout
+      file and then call a method in a Java class,
+    2. You can set up the entire event handler in Java by creating a anonymous implementations of event handler interfaces.
+Example: 09-JavaEvents project
