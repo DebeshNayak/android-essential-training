@@ -1,0 +1,16 @@
+Displaying menu items in the Action Bar:
+- By default, menu items appear on the Options menu, but you can also cause them
+  to appear in Action Bar area.
+- That's the bar at the top of the app. Here's how you can do this in XML
+--------
+- Instead of using the "android" prefix, I'll use the "app" prefix in the "showAsAction" attribute.
+  Here's why we're doing this. In the MainActivity class, as the app starts up, there's code in place
+  that's replacing the actual Action Bar with an object called the Toolbar, and the toolbar class is
+  a class from the support library.
+- The general rule is that any attributes that are defined in the core Android SDK libraries have the prefix android.
+- But there are times where attributes of objects that are defined in the support libraries use the app prefix.
+------------
+https://materialdesignicons.com/
+- And download appropriate icon and use it.
+-------------
+Example: 17-ActionBar project

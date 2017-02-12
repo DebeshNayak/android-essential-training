@@ -1,0 +1,9 @@
+1. How do you know which menu item the user has selected from the menu?
+Ans: by using the getItemId() method in the MenuItem class
+
+2. Where would you put the code if you need to add a menu item programmatically?
+Ans: in onCreateOptionsMenu()
+
+3. What is the correct option for showAsAction if you do not want to place the item
+  in the app bar, but instead you want to list the item in the app bar's overflow menu?
+Ans: Never

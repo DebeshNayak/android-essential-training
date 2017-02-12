@@ -17,3 +17,5 @@ iv.setImageResource(res);
 - But there are certain circumstances, especially when you're scrolling a list of values,
   where this bit of code is entirely too slow.
 - There is another approach available working with images not as Resources, but as something called "Assets".
+----------
+Example: 13-ImageResource project

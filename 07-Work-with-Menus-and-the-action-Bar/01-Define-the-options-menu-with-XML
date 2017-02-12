@@ -1,0 +1,17 @@
+Define the options menu with XML:
+- When you first create an app using the templates in Android studio, the app will
+  have an options menu.
+- When you touch the icon in the upper right corner you see the menu pop up and if
+  there are more items than one it will drop down from that corner.
+- You can then select an item and it will result in calling a bit of Java code.
+- I'm going to show you how to define more items on that menu and then give you some
+  variations for how to handle the events that are dispatched when the user selects items
+  from the menu.
+------------------
+- The "onCreateOptionsMenu" method is called automatically as the activity starts up.
+- So, you can put in some conditional code and decide which version of a menu you prefer
+  to use in a particular situation.
+- All of your menu information can be defined in ".xml" files, and then you handle the
+menu events in Java code.
+----------
+Example: 15-OptionsMenu project

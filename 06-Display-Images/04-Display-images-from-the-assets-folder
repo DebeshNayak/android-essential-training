@@ -13,3 +13,4 @@ So we can choose between working with resources or assets:
 - But when we are working with multiple images, to run the application faster, we need to
   work with assets and open those images dynamically from the assets folder.
 --------------
+Example: 14-ImageAsset project

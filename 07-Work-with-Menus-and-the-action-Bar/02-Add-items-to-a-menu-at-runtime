@@ -1,0 +1,15 @@
+Add items to a menu at runtime:
+- You can add menu items dynamically using Java code.
+- We need a menu ID.
+- When we define a menu in in XML, the menu item ID it's assigned is part of the
+  item element.
+- The actual integer value of this ID is assigned dynamically when the code is
+  generated.
+- When you create your own menu items, you'll have to create your own unique ID,
+- But it shouldn't be an integer.
+------------
+- So you can create your menus as a combination of static XML and dynamic Java
+  code, but when you handle the menu selection, typically all that code will go
+  into this same method, so you know exactly where all the menu handling code is.
+------------
+Example: 16-MenuRuntime project
