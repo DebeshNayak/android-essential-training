@@ -1,0 +1,8 @@
+1. There are five different versions of the launcher icon, one for each of the standard pixel density buckets.
+Ans: True
+
+2. In which folder would you put an image to make it an image resource?
+Ans: drawable
+
+3. After creating an ImageView, which method do you use to set an image from drawable?
+Ans: setImageResource()

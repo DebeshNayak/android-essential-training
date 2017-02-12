@@ -1,0 +1,15 @@
+Display images from the assets folder:
+- We have studied 3 different ways of displaying an image using the ImageView control.
+- We can do everything in the layout file using a fixed image resource, or we can point to
+  a fixed image resource in Java code or it could be done dynamically, starting from a string,
+  and getting the resource from the string.
+- There is another way, not using a resource, but using something called an "asset" file.
+- Asset files are placed in the assets folder, and unlike resource, they aren't
+  compiled into the application in any way, and resource identifiers aren't assigned.
+- Instead we address an asset file using its real name and not anything that goes through a Java class.
+--------------
+So we can choose between working with resources or assets:
+- When we are working with a single image, we keep everything in the resources folder,
+- But when we are working with multiple images, to run the application faster, we need to
+  work with assets and open those images dynamically from the assets folder.
+--------------

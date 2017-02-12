@@ -1,0 +1,16 @@
+Display an image resource with ImageView:
+- We can also use these graphics within your app to brand your application.
+- <ImageView> element is used to add a image resource.
+- Image resources are great when you already know what the image is going to be.
+To add a Image into the app:
+1. You place the image inside the drawable folder.
+2. Then reference the image through its resource identifier.
+3. Then set the image dimensions with dps, not with physical pixels, to make sure
+  that the image modifies itself for each unique device.
+4. Then take these dp settings and save them as dimension resources.
+So, I can make it very easy to override them later on with other settings.
+  - Select the text
+  - Press Alt + enter
+  - Select "Extract dimension resource"
+--------------
+Example: 12-ImageView project

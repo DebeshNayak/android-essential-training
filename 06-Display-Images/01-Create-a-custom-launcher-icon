@@ -1,0 +1,11 @@
+Create a custom launcher icon:
+- When we design an Android app, we want to add images to make it colorful and interesting to look at.
+- And the first image that we see with your app is the "launcher icon".
+- To add a new icon:
+  1. Right click the app folder.
+  2. Go to "New" -> "Image Asset"
+  3. Select "Icon Type" -> "Launcher Icon"
+  4. "Asset Type" : "Image"
+  5. Follow the prompt
+----------
+Example: 11-LauncherIcon project

@@ -1,0 +1,19 @@
+Display image resources at runtime:
+- We can display an image from an ImageResource with Java code.
+- There is two ways of displaying image resources in Java code.
+1. Using setImageResource():
+ImageView iv = (ImageView) findViewById(R.id.photo);
+iv.setImageResource(R.drawable.jacket101);
+
+2. getResources().getIdentifier():
+ImageView iv = (ImageView) findViewById(R.id.photo);
+
+String imageName = "jacket101";
+int res = getResources().getIdentifier(imageName, "drawable", getPackageName());
+iv.setImageResource(res);
+
+- This coding style is useful when you're working with a single image and
+  you're starting with a String value, say a value that's stored in a database.
+- But there are certain circumstances, especially when you're scrolling a list of values,
+  where this bit of code is entirely too slow.
+- There is another approach available working with images not as Resources, but as something called "Assets".

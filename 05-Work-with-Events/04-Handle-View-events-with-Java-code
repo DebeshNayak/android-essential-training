@@ -16,6 +16,7 @@ button.setOnClickListener();
 
     }
   - The onClick() receives a single argument, a reference to the View object that dispatched the event.
+-------------------
   - So how you handle events is completely up to you:
     1. You can either use the method where you register an event handler in a layout
       file and then call a method in a Java class,
