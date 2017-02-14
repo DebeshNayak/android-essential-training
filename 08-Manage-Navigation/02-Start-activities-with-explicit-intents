@@ -1,0 +1,12 @@
+Start activities with explicit intents:
+- Here we will learn how to add visual controls within the content layout file to
+  show a graphic and a couple of text views.
+- And will show you how to navigate from the main activity to this new activity named "About".
+----------------
+- To navigate from one activity to another within a single app, following code is used:
+Intent intent = new Intent(this, AboutActivity.class);
+startActivity(intent);
+----------------
+- getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+  - This line display back button in the About activity page for older version of android.
+----------------

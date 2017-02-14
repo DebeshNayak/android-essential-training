@@ -1,0 +1,17 @@
+Layout activities with fragments:
+-------------
+- There's another entire aspect of working with multiple screens that involves
+  designing layouts with fragments.
+- This is a large subject.
+- It makes the app truly flexible.
+--------------
+- We can clearly see the advantages of working with fragments by creating another
+  new app that's based on a template called the "master detail" template.
+- Here on tablet, the item list and the details are displayed in the same screen.
+- The way it work is that, there is a single fragment, and the fragment layout is being
+  used in both the tablet and phone.
+- And it is being seen in different context depending on the size of the screen.
+---------------
+- There is a certain amount of complexity involved in getting started with
+  fragment based applications.
+- Next course for Android Fragment: Building Adaptive Android Apps with Fragments.

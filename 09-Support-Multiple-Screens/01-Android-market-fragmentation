@@ -1,0 +1,12 @@
+Android market fragmentation:
+----------------------------
+Android version usage:
+http://developer.android.com/about/dashboards/index.html
+--------------------
+- I like using Nexus devices because they're designed for developers.
+- It's easy to unlock their bootloaders and install a variety of Android versions on them.
+- In the rest of this chapter I'll describe some useful strategies for managing this
+  market fragmentation, including how to create alternative screen layouts and other
+  resources for different sized screens.
+- And how to create images of different sizes and resolutions for screens with a
+  variety of pixel densities.

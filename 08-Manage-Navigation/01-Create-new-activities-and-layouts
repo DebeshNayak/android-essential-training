@@ -1,0 +1,15 @@
+Create new activities and layouts:
+- My simple demonstration app has only a single screen or activity.
+- But most Android apps will have more than one activity so I'll show you how to
+  create a new activity and then show you where it's registered in your application manifest
+  and how it's structured.
+--------------------
+To create new activity:
+1. File -> New -> Activity -> Blank Activity
+--------------------
+- the setDisplayHomeAsUpEnabled() on older versions of Android calling this method
+  will cause an icon to appear on your action bar.
+- An up button. It's actually an arrow pointing to the left but it's one more way
+  for the user to return from the current activity to the parent activity.
+--------------------
+Example: 18-AddActivity project

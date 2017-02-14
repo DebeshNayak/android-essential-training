@@ -1,0 +1,5 @@
+Define alternative dimension resources:
+- You can use specially named dimensions resource folders to manage what happens on large-screen devices.
+------------
+- Just like with Orientation, you can create specially named resource directories
+  to contain alternative definition files for layouts, dimensions, and other kinds of values.

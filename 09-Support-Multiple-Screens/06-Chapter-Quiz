@@ -1,0 +1,14 @@
+1. In order to know which versions of Android are in most current use, you can
+  visit the webpage developer.android.com/about/dashboards.
+Ans: True
+
+2. If you need to support a different layout when the view changes to landscape,
+  in which folder should the new layout be placed?
+Ans: layout-land
+
+3. You control the display on large-screen devices by creating specially named resource
+  directories to contain alternative definition files for layouts and dimensions.
+Ans: True
+
+4. When creating a new class that extends from Fragment, which create method will you overload?
+Ans: onCreateView()

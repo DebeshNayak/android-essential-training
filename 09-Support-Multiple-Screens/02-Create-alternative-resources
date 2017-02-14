@@ -1,0 +1,6 @@
+Create alternative resources:
+- There are a number of ways to make an app adapt to different screen sizes, pixel densities, and orientations.
+- If you take any resource directory name such as layout or values, and you append -land,
+  the files or the values that are defined in the landscape version of the directory will override
+  the default values or files.
+- And you can look at the documentation for lots of examples of this that are supported by the Android application framework.

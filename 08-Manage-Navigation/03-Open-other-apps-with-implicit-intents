@@ -1,0 +1,18 @@
+Open other apps with implicit intents:
+There are two type of intents:
+1. Explicit intent to navigate from one activity to another within a single application.
+2. Implicit intents allow you to share data with other applications on the same Android device.
+- Here we will do two types of implicit intents:
+1. One to jump to a website, and
+2. Other to send an email, both from within my sample application.
+----------------
+1. One to jump to a website
+webIntent.resolveActivity(getPackageManager())
+- This line of code check if there is an app that can handle the URI and if it is not then it will return null.
+----------------
+2. Send Email:
+----------------
+- We can do similar things for Google Maps and many other apps that are installed
+  on an Android device.
+- For more information about implicit intents, and in particular, look at the constants
+  that are available from the Intent class for common actions.

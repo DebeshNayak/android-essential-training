@@ -1,0 +1,13 @@
+Create multiple versions of images:
+- There are ways of creating alternative images both for the launcher icon and for icons
+  that you use in the Action bar.
+- In both cases, folders were created under resources for the different pixel density buckets.
+- And it's up to the application framework to decide which version of a PNG or JPG file to use
+  at runtime depending on the device's capabilities.
+- You can do the same thing with other kinds of images, but Android Studio won't handle it for you.
+- If you try to create a new image asset in Android Studio, you'll see that there are options for
+  three different kinds of asset types, but they're all icons.
+- None of them are simple images.
+- So if you want to generate different size images for different screens, you'll need another tool.
+https://github.com/asystat/Final-Android-Resizer
+-------------

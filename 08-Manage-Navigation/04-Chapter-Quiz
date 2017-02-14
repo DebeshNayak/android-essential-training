@@ -1,0 +1,5 @@
+1. If you are navigating to an activity called ProductActivity, how do you reference that activity in the Intent object?
+Ans: ProductActivity.class
+
+2. When creating an implicit intent, the important step you need to complete is resolveActivity.
+Ans: True
