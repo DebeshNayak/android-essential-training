@@ -1,0 +1,9 @@
+Display an array of data in a list:
+- There are many kinds of Android apps where you need to display a list of data
+that scrolls whenever there's too much data to fit on the screen.
+-----------
+- To display data in a scrolling list in Android:
+  - Start off with the data collection, which can be either a simple array or a Java list,
+  - And then you use an adapter and a ListView.
+-----------
+Example: 23-ListView project

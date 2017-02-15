@@ -1,0 +1,20 @@
+Customize list item displays:
+- We can make app visually interesting and also support more complex data.
+------------
+1. Added a asset folder and all the images files.
+  - Images will be called by their file names.
+--------
+2. Added couple of Java Class
+  1. "Product" class:
+    - This represent a complex object with 4 values
+    - There is getter method and a constructor that let create the class.
+  2. "DataProvider" class:
+    - This class is creating a list of complex objects.
+    - Each object is an instance of that product class.
+    - It exposes the data in the form of two static fields.
+      - A list: is a order set of data
+      - A map: Set of key and value pair
+              - Where key is a string
+              - And associated item is an instance of product class.
+----------------
+Example: 24-CustomizeList project

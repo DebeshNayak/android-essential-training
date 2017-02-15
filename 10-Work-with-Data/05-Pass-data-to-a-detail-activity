@@ -1,0 +1,16 @@
+Pass data to a detail activity:
+- When navigating from one activity to another, you can pass data as an extra.
+- An extra can be of one of the common Java data types, strings, numbers and Booleans,
+  and you can also pass arrays of those types.
+- And you can even pass collections of name-value pairs known as bundles, a kind of HashMap.
+------------------------
+- Here, I'll pass a single value from my main activity to my detail activity,
+- And then in the detail activity, I'll use that value to get a complex object from my data provider.
+- And from there, I'll be able to display all of the requested details.
+------------------------
+- We have to use extras.
+- And we could either pass a whole bunch of extra values, or, as I did,
+  you can pass a single primary key value and then use that value in the receiving
+  or detail activity to go get the data you need.
+-------------
+Example: 27-DisplayDetails project

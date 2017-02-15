@@ -1,0 +1,20 @@
+Create and open a detail activity:
+-----------------------------
+- When a user touches an item on a list, they expect to see the details of the selected item.
+- There are a few ways to do this in Android, but the simplest is to navigate to another
+  activity known as the DetailActivity and display the details there.
+- In order to see the details, I'll create the new activity and then I'll add code
+  to navigate to that activity.
+----------------
+Following code will be added to the MainActivity class:
+// add code to handle onItemClickListener()
+// we are using setOnItemClickListener() to handle click event of every item in the list
+lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        Intent intent = new Intent(MainActivity.this, DetailActivity.class);
+        startActivity(intent);
+    }
+});
+-----------------
+Example: 26-DetailActivity

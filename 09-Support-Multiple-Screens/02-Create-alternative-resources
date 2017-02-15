@@ -4,3 +4,5 @@ Create alternative resources:
   the files or the values that are defined in the landscape version of the directory will override
   the default values or files.
 - And you can look at the documentation for lots of examples of this that are supported by the Android application framework.
+------------
+Example: 19-AlternativeLayout project

@@ -3,3 +3,5 @@ Define alternative dimension resources:
 ------------
 - Just like with Orientation, you can create specially named resource directories
   to contain alternative definition files for layouts, dimensions, and other kinds of values.
+------------
+Example: 20-AlternativeDimens project

@@ -1,0 +1,11 @@
+1. How do you create an array of strings named courses in an XML file?
+Ans: <string-array name="courses"><item>Java</item>...</string-array>
+
+2. After creating an InputStream named stream, how do you return a Bitmap from a method?
+Ans: return BitmapFactory.decodeStream(stream);
+
+3. How do you pass data to another activity if you have an Intent named "intent"?
+Ans: intent.putExtra()
+
+4. In order to get two activities to coordinate with each other, which method should you use?
+Ans: startActivityForResult()

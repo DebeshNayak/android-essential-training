@@ -1,0 +1,22 @@
+Return data to a parent activity:
+- When working with two activities, you can return data from the second activity
+  by packaging the data as intent extras.
+- As with the data you're sending, you'll need a constant for each extra that's
+  accessible to both the sender and the receiver that's used as the extra name,
+  and identifies that value.
+---------------------
+So these are the four steps:
+1. Create the intent object,
+2. Use it to package up your data,
+3. You could add more than one extra in if you wanted
+4. Set result and connect the data to the result
+5. Then call finish to close the current activity and return to the parent.
+---------------------
+- I check to make sure that I'm coming back from the DetailActivity, that everything's okay.
+- Then I extract my message string from the intent bundle.
+- Then I create a Snackbar message and display it,
+- But also allow the user to jump to another action by adding an action to the Snackbar message.
+--------------------
+- Intents can be used to package the data going in both directions.
+---------------------
+Example: 28-ReturnData project
